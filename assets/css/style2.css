@@ -118,7 +118,7 @@ img {
    
 }
 
-h3  {
+/* h3  { */
     background: #bd5734;
     color: #454140;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -136,7 +136,7 @@ h3  {
 
 
 
-.container > a:hover {
+/* .container > a:hover { */
     background-color: #7a3b2e;
     color: #777777;
 
