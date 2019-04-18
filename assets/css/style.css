@@ -1,7 +1,7 @@
 
 .banner {
     background: rgb(65, 63, 63);
-    border-bottom: 3px solid #ccc;
+    border-bottom: 3px solid #7a3b2e;
     position: relative;
     padding: 5px 0;
 }
@@ -14,12 +14,12 @@ ul {
 
 li {
     float: right;
-    border-right: 1px solid #777777;
+    border-right: 1px solid #7a3b2e;
 }
 
 li a:hover {
-    background-color: #4aaaa5;
-    color: darkslategray
+    background-color: #a79e84;
+    color: #454140;
 }
 
 li a {
@@ -34,20 +34,49 @@ li a {
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 25pt;
-    background: #4aaaa5;
-    color: #ffffff;
+    background: #a79e84;
+    color: #45140;
     width: 200px;
     text-align: center;
-    padding: 19px 0;
+    padding: 18px 0;
     position: absolute;
     left: 150px;
     top: -1px;
     
 }
 
-/* .wrapper { */
-    width: 960px;
-    padding: 20px;
-    margin: 0 auto;
+body {
+    background-image: url("../images/dark-honeycomb.png");
+}
+
+img {
+    /* float: left; */
+    object-fit: contain;
     
+    
+    
+}
+
+
+.wrapper {
+    background: #a79e84;
+    width: 960px; 
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 27px;
+    padding: 5px;
+}
+
+#content {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 12pt;
+    color:  rgb(65, 63, 63);
+    line-height: 28px;
+}
+
+h2 {
+    font-size: 20pt;
+    border-bottom: 3px solid #7a3b2e;
+
 }
