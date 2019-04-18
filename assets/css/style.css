@@ -1,0 +1,53 @@
+
+.banner {
+    background: rgb(65, 63, 63);
+    border-bottom: 3px solid #ccc;
+    position: relative;
+    padding: 5px 0;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    padding-bottom: 7px;
+}
+
+li {
+    float: right;
+    border-right: 1px solid #777777;
+}
+
+li a:hover {
+    background-color: #4aaaa5;
+    color: darkslategray
+}
+
+li a {
+    display: block;
+    color: #777777;
+    text-decoration: none;
+    padding: 18px 16px;
+    text-align: center;
+}
+
+    
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25pt;
+    background: #4aaaa5;
+    color: #ffffff;
+    width: 200px;
+    text-align: center;
+    padding: 19px 0;
+    position: absolute;
+    left: 150px;
+    top: -1px;
+    
+}
+
+/* .wrapper { */
+    width: 960px;
+    padding: 20px;
+    margin: 0 auto;
+    
+}

@@ -4,6 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <title>Liv Heller</title>
+        <link rel="stylesheet" href="assets/css/reset.css">
         <link rel="stylesheet" href="assets/css/style.css">
         <!-- Background pattern from Toptal Subtle Patterns -->
     </head>
@@ -11,26 +12,35 @@
 <body>
 
     <header>
-        <h1>Liv Heller</h1>
-
-        <ul>
-            <li><a href="#">About</a></li>
-            <li><a href="portfolio.html" target="_blank">Portfolio</a></li>
+        <nav>
+            <div class="banner">
+                    <h1>Liv Heller</h1>
+                <ul>
             <li><a href="contact.html" target="_blank">Contact</a></li>
-        </ul>
-
+            <li><a href="portfolio.html" target="_blank">Portfolio</a></li>
+            <li><a href="#">About</a></li>   
+                </ul>
+            </div>
+        </nav>
     </header>
 
-    <section>
+    <div class="background">
+        <img src="assets/images/dark-honeycomb.png" alt="Dark Honeycomb Background">
+    </div>
 
-        <h2>About Me</h2>
-        <img src="assets/images/headshot.jpg" alt="Headshot" />
+    
+    <div class="wrapper">
+        <section id="content">
+            <h2>About Me</h2>
+                <img src="assets/images/headshot.jpg" alt="Headshot" />
    
-        <p>I'm Liv. I was born in California, grew-up in Colorado, went to school and worked in California, and am now back in Colorado. Colorado Springs to be exact.</p>
-        <p>I do a lot of things, but mostly I make stuff. Currently, I make stuff by repeatedly bashing my head against a keyboard, but in the past I've made prosthetic pieces for film, secret passageways for escape rooms, a winter wonderland in the heart of LA, and so much more.</p>
-        <p>My ultimate passion is story-telling and I'm always looking for new mediums in which to explore the art of narrative. This journey has taken me from film and television, to immersive entertainment and haunts, to videogames and experimental ARGs.</p>
-        <p>When I'm not covering people with fake blood, and gluing my fingers together, I can be found at home with my dog, probably sleeping.</p>
-    </section>
+                <p>I'm Liv. I was born in California, grew-up in Colorado, went to school and worked in California, and am now back in Colorado. Colorado Springs to be exact.</p>
+                <p>I do a lot of things, but mostly I make stuff. Currently, I make stuff by repeatedly bashing my head against a keyboard, but in the past I've made prosthetic pieces for film, secret passageways for escape rooms, a winter wonderland in the heart of LA, and so much more.</p>
+                <p>My ultimate passion is story-telling and I'm always looking for new mediums in which to explore the art of narrative. This journey has taken me from film and television, to immersive entertainment and haunts, to videogames and experimental ARGs.</p>
+                <p>When I'm not covering people with fake blood, and gluing my fingers together, I can be found at home with my dog, probably sleeping.</p>
+            
+        </section>
+    </div>
 
     <footer class="footer"></footer>
 </body>
