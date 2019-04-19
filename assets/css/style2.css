@@ -93,12 +93,12 @@ h2 {
 }
 
 .row,
-.row > .column {
+.row > .column, .row > .column1, .row > .column2{
     padding: 10px;
 
 }
 
-.column {
+.column, .column1, .column2 {
     float: left;
     width: 50%;
 }
@@ -115,28 +115,45 @@ h2 {
 
 img {
     width: 100%;
+    position: relative;
    
 }
 
-/* h3  { */
+.content a {
     background: #bd5734;
     color: #454140;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 16pt;
+    font-size: 18pt;
     text-decoration: none;
     font-weight: bold;
     text-align: center;
+    
+   
+}
+
+h3 > a , h5 > a {
     position: absolute;
-    top: 350px;
-}
+    
 
-/* h4 > a { */
-    top: 600px;
 }
 
 
+h3 > a {
+    top: 285px;
+    padding: 0 158px;
+    padding: 20px 166px; 
+}
 
-/* .container > a:hover { */
+h5 > a {
+    top: 670px;
+    padding: 0 158px;
+    padding: 20px 151px;
+}
+
+
+
+
+.container > a:hover {
     background-color: #7a3b2e;
     color: #777777;
 
