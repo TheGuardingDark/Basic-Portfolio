@@ -125,7 +125,9 @@ img {
     position: absolute;
     background: #bd5734;
     height: 100px;
-    /* top: 750px; */
+    text-align: center;
+    padding-top: 35px;
+
 }
 
 .Button1, .Button2 {
@@ -142,54 +144,30 @@ img {
 }
 
 .Button3 {
-    width: 950px;
+    width: 949px;
     bottom: 40px;
 
 }
 
 
-/* .content a { */
-    background: #bd5734;
+.Box a {
     color: #454140;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 18pt;
+    font-size: 20pt;
     text-decoration: none;
-    font-weight: bold;
-    text-align: center;
-    position: absolute;
-    /* padding: 20px 150px;     */
-}
-
-
-/* h3 > a { */
-    top: 285px;
-    padding: 20px 165px; 
-}
-
-/* h4 > a { */
-    top: 285px;
-    padding: 20px 167px;
-}
-
-/* h5 > a { */
-    top: 670px;
-    padding: 20px 152px;
-}
-
-/* h6 > a { */
-
-}
-
-/* .yno7 > a { */
-
+    font-weight: bold;  
 }
 
 
 
-.container > a:hover {
+
+.content a:hover {
+    cursor: pointer;
     background-color: #7a3b2e;
     color: #777777;
+    padding: 20px 334px;
 }
+
 
 
 #footer {
