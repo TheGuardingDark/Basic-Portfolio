@@ -93,12 +93,12 @@ h2 {
 }
 
 .row,
-.row > .column, .row > .column1, .row > .column2{
+.row > .column {
     padding: 10px;
 
 }
 
-.column, .column1, .column2 {
+.column {
     float: left;
     width: 50%;
 }
@@ -115,11 +115,40 @@ h2 {
 
 img {
     width: 100%;
-    position: relative;
-   
 }
 
-.content a {
+.Box {
+    position: relative;
+}
+
+.Button1, .Button2, .Button3 {
+    position: absolute;
+    background: #bd5734;
+    height: 100px;
+    /* top: 750px; */
+}
+
+.Button1, .Button2 {
+    width: 454px;
+}
+
+.Button1 {
+    top: 242px;
+
+}
+
+.Button2 {
+    top: 605px;
+}
+
+.Button3 {
+    width: 950px;
+    bottom: 40px;
+
+}
+
+
+/* .content a { */
     background: #bd5734;
     color: #454140;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -127,45 +156,49 @@ img {
     text-decoration: none;
     font-weight: bold;
     text-align: center;
-    
-   
-}
-
-h3 > a , h5 > a {
     position: absolute;
-    
-
+    /* padding: 20px 150px;     */
 }
 
 
-h3 > a {
+/* h3 > a { */
     top: 285px;
-    padding: 0 158px;
-    padding: 20px 166px; 
+    padding: 20px 165px; 
 }
 
-h5 > a {
+/* h4 > a { */
+    top: 285px;
+    padding: 20px 167px;
+}
+
+/* h5 > a { */
     top: 670px;
-    padding: 0 158px;
-    padding: 20px 151px;
+    padding: 20px 152px;
 }
 
+/* h6 > a { */
+
+}
+
+/* .yno7 > a { */
+
+}
 
 
 
 .container > a:hover {
     background-color: #7a3b2e;
     color: #777777;
-
+}
 
 
 #footer {
-    /* flex-shrink: 0; */
+    flex-shrink: 0;
     background: #bd5734;
     border-top: 8px solid #7a3b2e; 
     padding-top: 50px;
     padding-bottom: 5px;
-    /* margin-top: auto; */
+    margin-top: auto;
     text-align: center;
 
 }
