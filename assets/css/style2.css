@@ -117,9 +117,7 @@ img {
     width: 100%;
 }
 
-.Box {
-    position: relative;
-}
+
 
 .Button1, .Button2, .Button3 {
     position: absolute;
@@ -127,7 +125,6 @@ img {
     height: 100px;
     text-align: center;
     padding-top: 35px;
-
 }
 
 .Button1, .Button2 {
@@ -150,7 +147,7 @@ img {
 }
 
 
-.Box a {
+div > a {
     color: #454140;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20pt;
@@ -159,15 +156,16 @@ img {
 }
 
 
-
-
-.content a:hover {
-    cursor: pointer;
+.column a:hover, .content a:hover {
     background-color: #7a3b2e;
     color: #777777;
-    padding: 20px 334px;
+    padding: 25px 80px;
+    border-radius: 15px;
 }
 
+.Rutgers a:hover {
+    padding: 25px 35px;
+}
 
 
 #footer {
