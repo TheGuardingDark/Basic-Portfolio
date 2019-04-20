@@ -4,39 +4,53 @@
     <head>
         <meta charset="UTF-8">
         <title>Liv Heller</title>
-        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/reset.css">
+        <link rel="stylesheet" href="assets/css/style3.css">
         <!-- Background pattern from Toptal Subtle Patterns -->
     </head>
 
 <body>
 
     <header>
-        <h1>Liv Heller</h1>
+        <nav>
+            <div class="banner">
+                <h1>Liv Heller</h1>
 
-        <ul>
-            <li><a href="index.html" target="_blank">About</a></li>
-            <li><a href="portfolio.html" target="_blank">Portfolio</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-
+            <ul>
+                <li><a href="#">Contact</a></li>
+                <li><a href="portfolio.html" target="_blank">Portfolio</a></li>
+                <li><a href="index.html" target="_blank">About</a></li>
+            </ul>
+            </div>
+        </nav>
     </header>
 
-    <div class="container">
-            <form>
-                Name:<br>
-                <input type="text" name="name"><br>
 
-                Email<br>
-                <input type="text" name="email"><br>
+    <div class="clearfix">
+        <div class="wrapper">
+            <div class="container"></div>
+                <h2>Contact</h2>
+                    <form action="#">
+                        <label for="Name">Name</label>
+                        <input type="text" id="Name" name="name">
+
+                        <label for="Email">Email</label>
+                        <input type="text" id="Email" name="email">
         
-                <label for="message">Message</label><br>
-                <textarea id="message" name="message" style="height: 200px"></textarea>
-
-                <input type="submit" value="Submit">
-            </form>
+                        <label for="message">Message</label><br>
+                        <textarea id="message" name="message"></textarea>
+                        
+                        
+                        <button type="submit" value="submit"><span>Submit </span></button>
+                                
+                    </form>
+            </div>
+        </div>
     </div>
 
-    <footer class="footer"></footer>
+
+
+    <footer class="footer">Copyright ©</footer>
 
 </body>
 </html>
